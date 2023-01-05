@@ -16,4 +16,4 @@ result = 0
 for s in argv[1:]:
     result += int(s)
 
-print(result)
+print("{:d}".format(result))
