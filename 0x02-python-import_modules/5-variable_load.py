@@ -2,8 +2,12 @@
 import variable_load_5
 
 
-def main():
+def print_a():
     print(variable_load_5.a)
+
+
+def main():
+    print_a()
 
 
 if __name__ == "__main__":
