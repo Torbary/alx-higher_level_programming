@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+if __name__ == "__main__":
+
 import sys
 from calculator_1 import add, sub, mul, div
 
@@ -18,3 +20,6 @@ if operator not in operations:
 
 result = operations[operator](a, b)
 print(f"{a} {operator} {b} = {result}")
+
+if __name__ == "__main__":
+    main()
