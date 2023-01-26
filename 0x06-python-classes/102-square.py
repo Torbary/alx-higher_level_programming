@@ -43,7 +43,7 @@ class Square:
             if value < 0:
                 raise ValueError("size must be >= 0")
             else:
-                 self.__size = value
+                self.__size = value
 
     def __lt__(self, other):
         """COmpare if square is less than another by area
@@ -72,7 +72,6 @@ class Square:
         """
         return self.size == other.size
 
-    
     def __ne__(self, other):
         """Compare if square is not equal to another by area
         Args:
