@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """define a classd sqaure"""
 
+
 class Square:
     """Represent a square
     Attributes:
