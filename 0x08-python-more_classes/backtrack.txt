@@ -1,0 +1,13 @@
+## BACKTRACKING ALGORITHM
+
+Backtracking is like a treasure hunt. Imagine you are on a treasure hunt and you have a map that leads you to the treasure. You start at one point on the map and keep following the path until you either find the treasure or reach a dead end, which means you can't go any further. If you reach a dead end, you have to go back to the last place you were and try a different path until you either find the treasure or have tried all possible paths.
+
+This is similar to how the backtracking algorithm works. It starts at one solution and keeps following the solution until it either finds a correct answer or can't go any further. If it can't go any further, it backtracks to the previous step and tries a different solution until it finds the correct answer or has tried all possible solutions.
+
+##  BRUTEFORCE ALGORITHM
+
+Brute force is like trying every possible solution to solve a problem. Imagine you have a lock and you want to open it. One way to do it is to try every possible combination of numbers until the lock opens. This is called the brute force approach. You keep trying different combinations until you find the right one.
+
+Backtracking, on the other hand, is like trying to solve a puzzle. You start with a piece and keep trying to fit other pieces with it until you either solve the puzzle or reach a point where you can't fit any more pieces. If you reach a point where you can't fit any more pieces, you go back to the last step and try a different piece until you either solve the puzzle or have tried all possible pieces.
+
+So the difference between the two algorithms is that brute force tries every possible solution, while backtracking only tries possible solutions and goes back to the previous step if it can't find a solution. Brute force is usually slower than backtracking, but it is guaranteed to find the solution if there is one.
