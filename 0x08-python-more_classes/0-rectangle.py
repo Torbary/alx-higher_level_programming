@@ -5,4 +5,5 @@
 class Rectangle:
     """ this class defines a rectangle"""
     def __repr__(self):
+        """just pass"""
         pass
