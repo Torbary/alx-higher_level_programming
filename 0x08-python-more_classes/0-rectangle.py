@@ -3,7 +3,5 @@
 
 
 class Rectangle:
-    """ this class defines a rectangle"""
-    def __repr__(self):
-        """just pass"""
+    """ this class define empty rep of a rectangle"""
         pass
