@@ -5,7 +5,6 @@
 
 class BaseGeometry:
     """ a class with public attr area"""
-    pass
     def area(self):
         """raises an Exception"""
         raise Exception("area() is not implemented")
