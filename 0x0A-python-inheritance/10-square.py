@@ -1,11 +1,10 @@
 #!/usr/bin/python3
-"""module '10-square' """
+"""module '10-square'
+    contains the class Bae Gemetry and sublass Square
+"""
 
 
 Rectangle = __import__('9-rectangle').Rectangle
-
-
-BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 
 class Square(Rectangle):
