@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""contain '0-read_file' module
+    function that reads an entire file
+"""
 
 
 def read_file(filename=""):
