@@ -3,6 +3,7 @@
     contains the function class_to_json(obj)
 """
 
+
 def class_to_json(obj):
     """
         function that returns thr dict descripition
