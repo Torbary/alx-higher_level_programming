@@ -4,7 +4,6 @@ import json
 import csv
 
 
-
 class Base:
     """Represent the base model.
     Represents the "base" for all other classes in project 0x0C*.
@@ -132,4 +131,3 @@ class Base:
                 return [cls.create(**d) for d in list_dicts]
         except IOError:
             return []
-
