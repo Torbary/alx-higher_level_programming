@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
 const factorial = (num) => {
-  if (isNaN(num)) {
+  if (isNaN(num) || num < 0) {
     return 1;
   }
 
