@@ -3,6 +3,7 @@
 
 import sys
 import MySQLdb
+"""import MySQLdb"""
 
 
 if __name__ == '__main__':
@@ -15,7 +16,9 @@ if __name__ == '__main__':
 
     cur = conn.cursor()
 
-    cur.execute("SELECT DISTINCT * FROM states WHERE name LIKE 'N%' ORDER BY id ASC")
+    cur.execute("SELECT DISTINCT * FROM states "
+                "WHERE name LIKE 'N%' "
+                "ORDER BY id ASC")
 
     rows = cur.fetchall()
     for row in rows:
