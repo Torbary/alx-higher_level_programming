@@ -1,7 +1,10 @@
 #!/usr/bin/python3
+"""module for 0-select_states.sql"""
 
-import MySQLdb
 import sys
+import MySQLdb
+"""import MySQLdb"""
+
 
 if __name__ == '__main__':
     username = sys.argv[1]
@@ -21,4 +24,3 @@ if __name__ == '__main__':
 
     cur.close()
     conn.close()
-
