@@ -10,6 +10,7 @@ from sqlalchemy.orm import sessionmaker
 from model_state import Base, State
 """import modules"""
 
+
 if __name__ == '__main__':
     # Get MySQL credentials
     mysql_user = sys.argv[1]
