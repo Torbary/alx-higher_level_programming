@@ -32,7 +32,3 @@ if __name__ == '__main__':
     # Print out the results
     for state in states:
         print('{}: {}'.format(state.id, state.name))
-
-    # If no results found
-    if states.count() == 0:
-        print('Nothing')
