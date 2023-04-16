@@ -12,13 +12,10 @@ if __name__ == '__main__':
     dbname = sys.argv[3]
     search_name = sys.argv[4]
 
-
     conn = MySQLdb.connect(host='localhost', port=3306, user=username,
                            passwd=password, db=dbname, charset='utf8')
 
-
     cur = conn.cursor()
-
     cur.execute("SELECT * FROM states "
                 "WHERE name LIKE BINARY %s "
                 "ORDER BY id ASC", (search_name,))
